@@ -1,0 +1,47 @@
+.header {
+  width: auto;
+  background-color: $white;
+  @media (min-width: 1120px) {
+    display: none;
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid #d9fff5;
+    align-items: center;
+    padding-top: 18.59px;
+    padding-bottom: 18.59px;
+  }
+  &__btnclick {
+    @extend %redbuttom;
+  }
+  &__btn {
+    @extend %redbuttom;
+  }
+  &__btn_hidden {
+    display: none;
+  }
+
+  &__img {
+    @media (min-width: 768px) {
+      margin-right: 250.73px;
+    }
+  }
+  &__btn_hidden {
+    @media (min-width: 768px) {
+      display: flex;
+
+      border: none;
+      border-radius: 50%;
+    }
+  }
+  &__btn_hiddens {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+
+      border: none;
+      border-radius: 50%;
+    }
+  }
+}

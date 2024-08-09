@@ -1,0 +1,19 @@
+.brends {
+  margin-top: 24px;
+
+  &__header {
+    @extend %TTLakesmin;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding: 16px;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__menu {
+    padding-top: 16px !important;
+
+    padding-left: 16px !important;
+  }
+}

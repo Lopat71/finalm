@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  padding-left: 16px;
+  @media (min-width: 768px) {
+    padding-left: 24px;
+  }
+  @media (min-width: 1120px) {
+    padding-left: 34px;
+  }
+}

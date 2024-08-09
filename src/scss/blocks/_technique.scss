@@ -1,0 +1,93 @@
+.technique {
+  display: none;
+  @media (min-width: 768px) {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 1120px) {
+    margin-top: 50px;
+  }
+  &__header {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
+  }
+  &__menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 24px 24px;
+    height: 162px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    &.shower {
+      height: 348px;
+      transition: 0.3s ease;
+    }
+    @media (min-width: 1120px) {
+      grid-template-columns: repeat(4, 1fr);
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+  }
+
+  &__block {
+    display: flex;
+    width: 205px;
+    height: 160px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    &:last-child {
+    }
+  }
+  &__text {
+    @extend %TTLakesmin;
+    color: $black;
+    padding-left: 16px;
+    padding-top: 16px;
+  }
+  &__img {
+    width: 37px;
+    height: 40px;
+    padding-left: 152px;
+    padding-bottom: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__button {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      font-family: "TT Lakes";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: rgba(27, 28, 33, 1);
+      background-color: rgba(248, 248, 248, 1);
+      border: none;
+      margin-top: 24px;
+      margin-left: 24px;
+      gap: 8px;
+    }
+  }
+}

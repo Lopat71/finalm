@@ -1,0 +1,118 @@
+.prise {
+  display: none;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+  @media (min-width: 1120px) {
+    margin-top: 51px;
+  }
+  &__header {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
+  }
+
+  &__container {
+    max-width: initial;
+  }
+  &__main {
+    flex-direction: column;
+    gap: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+    @media (min-width: 1120px) {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+  }
+  &__block {
+    display: flex;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: $white;
+    padding-left: 16px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: $black;
+    @media (min-width: 1120px) {
+      padding-left: 24px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 95%;
+      height: 1px;
+      top: 70px;
+      background-color: $greybody;
+    }
+    &:nth-child(1) {
+      background: initial;
+      color: $greytext;
+      flex-grow: 0;
+    }
+    &:nth-child(2) {
+      border-radius: 5px 5px 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 5px 5px;
+      &::after {
+        content: "";
+        display: none;
+      }
+    }
+  }
+  &__text {
+    &:nth-child(1) {
+      width: 50%;
+    }
+    &:nth-child(2) {
+      width: 15%;
+    }
+    &:nth-child(3) {
+      width: 15%;
+      flex-grow: 1;
+    }
+    &:nth-child(4) {
+      width: 20%;
+    }
+  }
+  &__botton {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff3e79;
+    border-radius: 16px;
+    border: none;
+    width: 119px;
+    height: 32px;
+    font-family: "TT Lakes";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: rgb(255, 255, 255);
+    @media (min-width: 1120px) {
+      margin-right: 24px;
+    }
+  }
+}

@@ -1,0 +1,178 @@
+.aside {
+  width: 320px;
+  min-height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  background-color: $white;
+  position: absolute;
+  left: -320px;
+  top: 0;
+  transition: left 0.3s ease;
+  box-shadow: 0 10px rgba(69, 79, 126, 0.02);
+
+  z-index: 1000;
+  @media (min-width: 1120px) {
+    position: relative;
+
+    left: 0;
+    box-shadow: none;
+  }
+
+  &.active {
+    left: 0;
+    box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+    position: fixed;
+    @media (min-width: 1120px) {
+      box-shadow: none;
+    }
+    &.looks {
+      display: none;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18.73px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    @media (min-width: 768px) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    @media (min-width: 1120px) {
+      padding-top: 30px;
+      gap: 118px;
+      padding-left: 22px;
+      padding-right: 29px;
+    }
+  }
+  &__burgerclick {
+    @extend %redbuttom;
+    @media (min-width: 1120px) {
+      display: none;
+    }
+  }
+  &__img {
+    padding-right: 60px;
+    @media (min-width: 1120px) {
+      padding-right: 0px;
+    }
+  }
+  &__search {
+    @extend %redbuttom;
+  }
+  &__nav {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 22.27px;
+    gap: 28.31px;
+    @media (min-width: 768px) {
+      padding-top: 46.27px;
+    }
+    @media (min-width: 1120px) {
+      padding-top: 37.19px;
+      gap: 28.31px;
+      flex: 1;
+    }
+  }
+  &__btn {
+    position: relative;
+    text-decoration: none;
+    @extend %TTLakesmin;
+    color: $black;
+    padding-left: 16px;
+    background-color: $white;
+    border: none;
+    @media (min-width: 1120px) {
+      padding-left: 24px;
+    }
+  }
+  &__btn:hover::before {
+    content: url("../img/SVG/aside/highlight1.svg");
+    position: absolute;
+    left: 0;
+  }
+  &__btn:hover {
+    color: $greytext;
+    opacity: 0.9;
+  }
+  &__info {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      padding-top: 0px;
+      padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+      padding-bottom: 0px;
+    }
+  }
+  &__link {
+    display: flex;
+    gap: 16px;
+  }
+  &__searchs {
+    display: flex;
+
+    border: none;
+    border-radius: 50%;
+    @media (min-width: 768px) {
+      display: flex;
+
+      border: none;
+      border-radius: 50%;
+    }
+  }
+  &__mail {
+    margin-top: 16px;
+    @extend %TTLakesmin;
+    color: $black;
+    @media (min-width: 768px) {
+      margin-top: 16.54px;
+    }
+  }
+  &__tel {
+    margin-top: 12px;
+    font-family: "TT Lakes";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $black;
+    text-decoration: none;
+    @media (min-width: 768px) {
+      margin-top: 12.4px;
+    }
+    @media (min-width: 1120px) {
+      margin-top: 12.4px;
+    }
+  }
+  &__lang-btn {
+    margin-top: 8px;
+    text-decoration: none;
+    @extend %TTLakesmin;
+    color: $black;
+
+    background-color: $white;
+    border: none;
+
+    &__lang-btn:hover {
+      color: $greytext;
+    }
+    @media (min-width: 768px) {
+      margin-top: 40.82px;
+      &:hover {
+        color: $greytext;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.rules {
+  margin-top: 16px;
+  @media (min-width: 768px) {
+    margin-top: 24px;
+  }
+  @media (min-width: 1120px) {
+    margin-top: 32px;
+  }
+  &__info {
+    width: 288px;
+    padding-left: 16px;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    @media (min-width: 768px) {
+      width: 421px;
+      padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
+  }
+  &__btn {
+    margin-top: 16px;
+    padding-left: 16px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    background-color: $greybody;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      gap: 4px;
+      flex-direction: row;
+      padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
+  }
+  &__break {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    margin-left: 5px;
+  }
+}

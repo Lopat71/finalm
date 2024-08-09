@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 40px;
+  padding-bottom: 19px;
+  display: flex;
+  align-items: center;
+  font-family: "TT Lakes";
+  font-size: 14px;
+  line-height: 16px;
+  color: $greytext;
+  flex-direction: column;
+  border-top: 1px solid #d9fff5;
+  @media (min-width: 768px) {
+    margin-right: 24px;
+    margin-left: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 47px;
+    padding-bottom: 25px;
+    padding-top: 22px;
+  }
+  @media (min-width: 1120px) {
+    margin-top: 50px;
+    margin-right: 31px;
+    margin-left: 31px;
+    padding-bottom: 21px;
+  }
+  &__block {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 768px) {
+      align-items: flex-start;
+    }
+  }
+}

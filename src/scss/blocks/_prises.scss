@@ -1,0 +1,75 @@
+.prises {
+  margin-top: 24px;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  &__header {
+    @extend %TTLakesmin;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding: 16px;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__menu {
+    margin-top: 16px;
+    margin-left: 8px;
+  }
+  &__block {
+    display: flex;
+    width: 260px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: $white;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  &__title {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $greytext;
+    padding-left: 16px;
+    padding-top: 16px;
+  }
+  &__name {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: $black;
+    padding-top: 4px;
+  }
+  &__time {
+    display: flex;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $greytext;
+    padding-bottom: 16px;
+    align-items: flex-end;
+
+    justify-content: space-between;
+    padding-right: 16px;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $red;
+    border-radius: 16px;
+    border: none;
+    width: 119px;
+    height: 32px;
+    font-family: "TT Lakes";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: $white;
+  }
+}

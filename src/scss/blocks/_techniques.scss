@@ -1,0 +1,48 @@
+.techniques {
+  margin-top: 24px;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  &__header {
+    @extend %TTLakesmin;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding: 16px;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__menu {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  &__block {
+    display: flex;
+    width: 240px;
+    height: 160px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__text {
+    @extend %TTLakesmin;
+    color: $black;
+    padding-left: 16px;
+    padding-top: 16px;
+  }
+  &__img {
+    width: 48px;
+    height: 40px;
+    padding-top: 104px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+    padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Italic.eot");
+  src: local("TT Lakes Italic"), local("TTLakes-Italic"),
+    url("TTLakes-Italic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Italic.woff") format("woff"),
+    url("TTLakes-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-ExtraLight.eot");
+  src: local("TT Lakes Condensed ExtraLight"),
+    local("TTLakesCondensed-ExtraLight"),
+    url("TTLakesCondensed-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-ExtraLight.woff") format("woff"),
+    url("TTLakesCondensed-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Compressed";
+  src: url("TTLakesCompressed-Regular.eot");
+  src: local("TT Lakes Compressed Regular"), local("TTLakesCompressed-Regular"),
+    url("TTLakesCompressed-Regular.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCompressed-Regular.woff") format("woff"),
+    url("TTLakesCompressed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Compressed";
+  src: url("TTLakesCompressed-ThinItalic.eot");
+  src: local("TT Lakes Compressed Thin Italic"),
+    local("TTLakesCompressed-ThinItalic"),
+    url("TTLakesCompressed-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCompressed-ThinItalic.woff") format("woff"),
+    url("TTLakesCompressed-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-Medium.eot");
+  src: local("TT Lakes Condensed Medium"), local("TTLakesCondensed-Medium"),
+    url("TTLakesCondensed-Medium.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-Medium.woff") format("woff"),
+    url("TTLakesCondensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Compressed";
+  src: url("TTLakesCompressed-ExtraBoldItalic.eot");
+  src: local("TT Lakes Compressed ExtraBold Italic"),
+    local("TTLakesCompressed-ExtraBoldItalic"),
+    url("TTLakesCompressed-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("TTLakesCompressed-ExtraBoldItalic.woff") format("woff"),
+    url("TTLakesCompressed-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-ExtraLightItalic.eot");
+  src: local("TT Lakes ExtraLight Italic"), local("TTLakes-ExtraLightItalic"),
+    url("TTLakes-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-ExtraLightItalic.woff") format("woff"),
+    url("TTLakes-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-LightItalic.eot");
+  src: local("TT Lakes Light Italic"), local("TTLakes-LightItalic"),
+    url("TTLakes-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-LightItalic.woff") format("woff"),
+    url("TTLakes-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Thin.eot");
+  src: local("TT Lakes Thin"), local("TTLakes-Thin"),
+    url("TTLakes-Thin.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Thin.woff") format("woff"),
+    url("TTLakes-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-DemiBoldItalic.eot");
+  src: local("TT Lakes DemiBold Italic"), local("TTLakes-DemiBoldItalic"),
+    url("TTLakes-DemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-DemiBoldItalic.woff") format("woff"),
+    url("TTLakes-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-Black.eot");
+  src: local("TT Lakes Condensed Black"), local("TTLakesCondensed-Black"),
+    url("TTLakesCondensed-Black.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-Black.woff") format("woff"),
+    url("TTLakesCondensed-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-LightItalic.eot");
+  src: local("TT Lakes Condensed Light Italic"),
+    local("TTLakesCondensed-LightItalic"),
+    url("TTLakesCondensed-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-LightItalic.woff") format("woff"),
+    url("TTLakesCondensed-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-DemiBold.eot");
+  src: local("TT Lakes Condensed DemiBold"), local("TTLakesCondensed-DemiBold"),
+    url("TTLakesCondensed-DemiBold.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-DemiBold.woff") format("woff"),
+    url("TTLakesCondensed-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Compressed";
+  src: url("TTLakesCompressed-ExtraBold.eot");
+  src: local("TT Lakes Compressed ExtraBold"),
+    local("TTLakesCompressed-ExtraBold"),
+    url("TTLakesCompressed-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCompressed-ExtraBold.woff") format("woff"),
+    url("TTLakesCompressed-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-ExtraBoldItalic.eot");
+  src: local("TT Lakes ExtraBold Italic"), local("TTLakes-ExtraBoldItalic"),
+    url("TTLakes-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-ExtraBoldItalic.woff") format("woff"),
+    url("TTLakes-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-ExtraLight.eot");
+  src: local("TT Lakes ExtraLight"), local("TTLakes-ExtraLight"),
+    url("TTLakes-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-ExtraLight.woff") format("woff"),
+    url("TTLakes-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-Bold.eot");
+  src: local("TT Lakes Condensed Bold"), local("TTLakesCondensed-Bold"),
+    url("TTLakesCondensed-Bold.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-Bold.woff") format("woff"),
+    url("TTLakesCondensed-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("TTLakesCondensed-ThinItalic.eot");
+  src: local("TT Lakes Condensed Thin Italic"),
+    local("TTLakesCondensed-ThinItalic"),
+    url("TTLakesCondensed-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("TTLakesCondensed-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Bold.woff") format("woff"),
+    url("TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Medium.eot");
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+    url("TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Medium.woff") format("woff"),
+    url("TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Regular.woff") format("woff"),
+    url("TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

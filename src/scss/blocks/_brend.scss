@@ -1,0 +1,88 @@
+.brend {
+  &__header {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;
+      font-family: "TT Lakes";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: $greytext;
+      border-top: solid #d9fff5;
+      background-color: $white;
+      padding-left: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
+  }
+  &__menu {
+    display: none;
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 24px;
+      margin-left: 24px;
+      margin-right: 24px;
+
+      justify-items: center;
+      gap: 16px 24px;
+      height: 155px;
+      overflow: hidden;
+      transition: 0.3s ease;
+      &.show {
+        height: 332.781px;
+        transition: 0.3s ease;
+      }
+    }
+    @media (min-width: 1120px) {
+      grid-template-columns: repeat(4, 1fr);
+
+      margin-left: 32px;
+      margin-right: 32px;
+
+      gap: 16px 32px;
+      height: 160px;
+      &.show {
+        height: 248px;
+        transition: 0.3s ease;
+      }
+    }
+  }
+  &__block {
+    @media (min-width: 1120px) {
+      height: 72px;
+    }
+  }
+  &__button {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      font-family: "TT Lakes";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: rgba(27, 28, 33, 1);
+      background-color: rgba(248, 248, 248, 1);
+      border: none;
+      margin-top: 24px;
+      margin-left: 24px;
+      gap: 8px;
+    }
+    @media (min-width: 1120px) {
+      margin-left: 32px;
+    }
+  }
+  &__img {
+    @media (min-width: 768px) {
+      width: 224px;
+    }
+    @media (min-width: 1120px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
