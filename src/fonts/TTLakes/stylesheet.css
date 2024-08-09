@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "TT Lakes";
   src: url("TTLakes-Italic.eot");
   src: local("TT Lakes Italic"), local("TTLakes-Italic"),
@@ -198,7 +198,7 @@
     local("TTLakesCondensed-ThinItalic"),
     url("TTLakesCondensed-ThinItalic.eot?#iefix") format("embedded-opentype"),
     url("TTLakesCondensed-ThinItalic.woff") format("woff");
-}
+} */
 
 @font-face {
   font-family: "TT Lakes";
